@@ -52,4 +52,16 @@ class UserInterface
       end.join
     end.join("\n")
   end
+
+  def move_round
+    # declare which player
+    # show "#{player_num}'s round!"
+
+    #Asking for coordinate
+    # show "Enter the coordinate where you want to hit"
+    # row_to_hit = promt "Row"
+    # col_to_hit = promt "Col"
+
+    
+  end
 end

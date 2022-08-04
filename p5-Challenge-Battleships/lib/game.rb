@@ -56,4 +56,31 @@ class Game
     return @ship_placement.include?([x, y]) ? true : false
   end
 
+  
+  def check_win
+    # called at every move's end
+    # check if all ships of one side are sunk
+    # if one side end, end the game, declare winner
+    # change game status from 'continue' to 'end'
+  end
+
+  def move # any arguments?
+    # one player fire
+    # fire(x,y)
+
+    # hit or no hit?
+    # check_win
+    # return true for game end, false to continue
+  end
+  
+  def fire(x,y)
+    # check if it hits enemy ship
+    # mark hit on enemy's ship location
+    # check if the ship is sunk
+    # put on screen to inform if it was hit or miss
+    # returns nothing?
+  end
+
+
+
 end
